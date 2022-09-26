@@ -1,0 +1,6 @@
+a='happy birthday to you'
+words= [word.lower() for  word in a.split()]
+words.sort()
+print(' words in alphabetical order:')
+for word in words:
+    print(word)
