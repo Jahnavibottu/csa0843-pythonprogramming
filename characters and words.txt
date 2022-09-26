@@ -1,0 +1,5 @@
+string='my name is jahnavi'
+print('the given string:', string)
+res = len(string.split())
+print('tne no of words are :',str(res))
+print('the no of characters are :', len(string))
