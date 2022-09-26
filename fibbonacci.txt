@@ -1,4 +1,4 @@
-n=10
+n=int(input("enter the number"))
 a,b=0,1
 print('fibonacci series:',a,b ,end='')
 for i in range(2,n):
