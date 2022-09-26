@@ -1,0 +1,9 @@
+import cmath
+a=8
+b=5
+c=9
+d=(b**2)-(4*a*c)
+s1=(-b-cmath.sqrt(d))/(2*a)
+s2=(-b+cmath.sqrt(d))/(2*a)
+print('the solution of quadratic equation are',(s1, s2))
+
