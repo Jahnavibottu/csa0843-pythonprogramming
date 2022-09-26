@@ -1,0 +1,9 @@
+def strings(s1,s2):
+    
+    if(sorted(s1)==sorted(s2)):
+        print ("the string are anogram")
+    else:
+        print ("the string are not anogram")
+s1='listen'
+s2='silent'
+strings(s1,s2)
