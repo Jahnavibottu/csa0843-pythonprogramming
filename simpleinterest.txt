@@ -1,0 +1,6 @@
+principle=int(input("enter the principle"))
+p=principle
+n=int(input("enter the time"))
+r=int(input("enter the rate"))
+si=(p*n*r)/100
+print("simple interest is:",si)
