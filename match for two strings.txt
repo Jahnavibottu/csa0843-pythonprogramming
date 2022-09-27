@@ -1,0 +1,8 @@
+string1=input("enter a string:")
+string2=input("enter a string:")
+count=0
+for i in range(len(string2)):
+    if string1[i]==string2[i]:
+        count+=1
+        print(i,string1[i])
+print(count)
