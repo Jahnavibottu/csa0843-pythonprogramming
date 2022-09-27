@@ -1,0 +1,7 @@
+def getbinary(num):
+    if num>=1:
+        getbinary(num//2)
+        print(num%2,end="")
+n1=int(input("enter a number"))
+n2=int(input("enter a number"))
+getbinary(n1+n2)
