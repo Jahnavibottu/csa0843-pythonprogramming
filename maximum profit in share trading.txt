@@ -1,0 +1,13 @@
+class object:
+    def solve(sell,prices):
+         firstbuy=firstsell=float("-inf")
+         secondbuy=secondsell=float("-inf")
+         for pf in prices:
+            firstbuy=max(firstbuy,-pf)
+            firstsell=max(firstsell,firstbuy+pf)
+            secondbuy=max(secondbuy,firstsell-pf)
+            secondsell=max(secondsell,secondbuy+pf)
+         return max(0,firstsell,secondsell)
+profit=object()
+prices=[12,7,14,21,8,6,31]
+print("max profit:",profit.solve(prices))
