@@ -1,0 +1,9 @@
+def maxarea(x,len):
+    area=0
+    for i in range(len):
+        for j in range(i+1,len):
+            area=max(area,min(x[j],x[i])*(j-1))
+    return area
+a=[1,5,4,3]
+len=len(a)
+print(maxarea(a,len))
