@@ -1,0 +1,10 @@
+n=int(input("enter lower range:"))
+m=int(input("enter upper range:"))
+for x in range(n,m+1):
+    composite=False
+    for i in range(2,x):
+        if(x%i==0):
+            composite=True
+    if composite==True:
+         print(x)
+         
