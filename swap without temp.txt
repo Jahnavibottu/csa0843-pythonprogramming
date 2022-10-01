@@ -1,5 +1,5 @@
-a=input("enter a value:")
-b=input("enter a value:")
-a,b=b,a
-print("swap value of a:",a)
-print("swap value of b:",b)
+m=input("enter a value:")
+n=input("enter a value:")
+m,n=n,m
+print("swap value of m:",m)
+print("swap value of n:",n)
