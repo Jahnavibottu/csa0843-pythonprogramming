@@ -15,5 +15,5 @@ def sumsquare(l):
             c=c+(j*j)
     square.append(c)
     square.append(b)
-    print(square)
+    print(c,b)
 sumsquare(l)
