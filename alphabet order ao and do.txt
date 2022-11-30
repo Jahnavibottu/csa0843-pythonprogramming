@@ -17,5 +17,5 @@ if(ch=='A' or ch=='a'):
         print(arr[i])
 else:
     print("THE DESCENDING ORDER")
-    for i in r5ange(0,n):
+    for i in range(0,n):
         print(arr[i])
